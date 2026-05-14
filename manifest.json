@@ -1,21 +1,26 @@
 {
   "name": "Табыс",
   "short_name": "Табыс",
-  "start_url": "/- /",
+  "description": "Күнделікті займ бақылау жүйесі",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#070c18",
   "theme_color": "#070c18",
-  "orientation": "portrait",
+  "orientation": "portrait-primary",
+  "lang": "ru",
   "icons": [
     {
-      "src": "https://via.placeholder.com/192x192/1d4ed8/ffffff?text=%F0%9F%92%B0",
+      "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "https://via.placeholder.com/512x512/1d4ed8/ffffff?text=%F0%9F%92%B0",
+      "src": "icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
